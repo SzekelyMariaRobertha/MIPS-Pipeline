@@ -7,7 +7,7 @@ Vivado: 2016. 4 (for generating a bitstream) and Basys 3 Digilent board (optiona
 
 ## Usage
 ### Requirements
-The project requires the following modules to be implemented in Verilog:
+The project requires the following modules to be implemented in VHDL:
 
 Register File: This module stores the values of the registers used by the processor.
 ALU (Arithmetic and Logic Unit): This module performs the arithmetic and logic operations required by the processor.
@@ -18,19 +18,11 @@ Data Memory: This module stores the data that is accessed by the processor.
 ### Implementation
 Pipeline Stages:
 The MIPS processor pipeline consists of five stages:
-
-Instruction Fetch (IF)
-Instruction Decode (ID)
-Execute (EX)
-Memory Access (MEM)
-Write Back (WB)
-The pipeline stages work as follows:
-
-Instruction Fetch (IF): The instruction to be executed is fetched from memory.
-Instruction Decode (ID): The instruction is decoded and the operands are extracted.
-Execute (EX): The arithmetic or logic operation is performed on the operands.
-Memory Access (MEM): If the instruction accesses memory, the data is retrieved or stored in memory.
-Write Back (WB): The result of the operation is written back to the register file.
+- Instruction Fetch (IF): The instruction to be executed is fetched from memory.
+- Instruction Decode (ID): The instruction is decoded and the operands are extracted.
+- Execute (EX): The arithmetic or logic operation is performed on the operands.
+- Memory Access (MEM): If the instruction accesses memory, the data is retrieved or stored in memory.
+- Write Back (WB): The result of the operation is written back to the register file.
 
 Schema
 <div allign="center">
