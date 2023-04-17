@@ -2,8 +2,7 @@
 This MIPS pipeline project is designed to implement a simple MIPS processor using a five-stage pipeline. The processor will be able to execute basic arithmetic and logic instructions. This project is implemented in VHDL and can be synthesized using any FPGA board or simulator.
 
 ## Requirements
-Vivado: 2016. 4 (for generating a bitstream) <br>
-Basys 3 Digilent board (optional)
+Vivado: 2016. 4 (for generating a bitstream) and Basys 3 Digilent board (optional)
 
 
 ## Usage
